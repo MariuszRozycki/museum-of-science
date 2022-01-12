@@ -22,29 +22,30 @@ header::after {
 }
 
 header .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px 4px;
+
 }
 
-.flex-header {
+.flex-header-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 3px solid var(--white-color);
 }
 
 .bars {
-  width: var(--medium);
-  height: calc(var(--medium) - 30px);
+  width: calc(var(--medium) - 18px);
+  height: 2px;
   background-color: white;
   margin: 5px 0;
 }
 /* .flex-header i, */
-.flex-header a {
+.flex-header-top a {
   color: var(--white-color);
-  font-size: var(--medium);
+  font-size: calc(var(--medium) - 16px);
 }
 
-.flex-header .first-letter {
+.flex-header-top .first-letter {
   font-weight: 700;
 }
 

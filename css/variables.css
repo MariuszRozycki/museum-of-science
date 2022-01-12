@@ -12,9 +12,9 @@
   --white-color: #fff;
 
   /* font-size */
-  --normal: calc(0.9rem + 1vw);
-  --medium: calc(1.8rem + 1vw);
-  --big: calc(2.7rem + 1vw);
+  --normal: 1rem;
+  --medium: 2rem;
+  --big: 3rem;
 }
 
 
