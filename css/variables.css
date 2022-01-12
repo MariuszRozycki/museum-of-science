@@ -1,0 +1,23 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+
+:root {
+  /* colors */
+  --orange-color: #FF9100;
+  --yellow-color: #FFF700;
+  --dark-blue-color: #243662;
+  --very-dark-blue-color: #121D38;
+  --white-color: #fff;
+
+  /* font-size */
+  --normal: calc(0.9rem + 1vw);
+  --medium: calc(1.8rem + 1vw);
+  --big: calc(2.7rem + 1vw);
+}
+
+
+
+
+
