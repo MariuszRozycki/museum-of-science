@@ -50,6 +50,7 @@ header::after {
 }
 
 .nav-main--list {
+  display: none;
   position: fixed;
   top: 35px;
   left: 5%;
@@ -67,6 +68,10 @@ header::after {
   padding: 10px 0;
   font-size: calc(var(--normal-font-size) + 1vw);
   font-weight: 600;
+}
+
+#hamburger-menu:checked ~ .nav-main--list {
+  display: block;
 }
 
 .first-letter {
