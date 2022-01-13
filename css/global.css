@@ -18,9 +18,16 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 a {
   text-decoration: none;
+  color: var(--white-color);
+}
+
+h1 {
+  color: var(--white-color);
+  font-weight: normal;
+  font-size: calc(var(--normal-font-size) + 6vw);
 }

@@ -15,21 +15,41 @@
 
 <body>
   <header>
-    <div class="container flex-header-top">
-      <nav class="nav-main">
-        <!-- <i class="fas fa-bars"></i> -->
-        <div class="bars"></div>
-        <div class="bars"></div>
-        <div class="bars"></div>
-      </nav>
-      <a href="logo">
-        <span class="first-letter">C</span>ommunity <span class="first-letter">S</span>ience <span
-          class="first-letter">M</span>useum</a>
-    </div>
-    <main>
-      <section class="welcome">
-      </section>
-    </main>
+    <nav class="nav-main">
+      <div class="container">
+        <label for="hamburger-menu" class="hamburger-menu">
+          <span class="bars"></span>
+          <span class="bars"></span>
+          <span class="bars"></span>
+        </label>
+        <input type="checkbox" id="hamburger-menu">
+        <ul class="nav-main--list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Explore</a></li>
+          <li><a href="">Exhibition Spaces</a></li>
+          <li><a href="">Special Events & Exhibitions</a></li>
+          <li><a href="">Get Involved</a></li>
+          <li><a href="">Visit</a></li>
+        </ul>
+        <a href="#" class="logo">
+          <span class="first-letter">C</span><span class="invisible">ommunity</span> <span
+            class="first-letter">S</span><span class="invisible">ience</span> <span class="first-letter">M</span><span
+            class="invisible">useum</span></a>
+      </div>
+    </nav>
+    <section class="welcome">
+      <div class="container">
+        <h1 class="main-header">
+          <span class="main-header--prefix">Welcome to</span>
+          <span class="main-header--word"><span class="first-letter">C</span>ommunity</span>
+          <span class="main-header--word"><span class="first-letter">S</span>ience</span>
+          <span class="main-header--word"><span class="first-letter">M</span>useum</span>
+        </h1>
+        <div class="graphic">
+          <img class="mona-lisa" src="./images/images_my/monalisa-mask/monalisa-text.svg" alt="Mona Lisa with mask">
+
+        </div>
+    </section>
   </header>
 </body>
 
