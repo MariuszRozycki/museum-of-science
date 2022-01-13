@@ -21,6 +21,7 @@ header::after {
   z-index: -1;
 }
 
+/* nav */
 .nav-main {
   border-bottom: 3px solid var(--white-color);
   position: relative;
@@ -34,7 +35,7 @@ header::after {
 
 .bars {
   display: block;
-  width: calc(var(--normal-font-size));
+  width: calc(var(--normal-font-size) + 1.5vw);
   height: 2px;
   background-color: white;
   margin: 5px 0;
@@ -42,7 +43,15 @@ header::after {
 
 .logo {
   color: var(--white-color);
-  font-size: var(--normal-font-size);
+  font-size: calc(var(--normal-font-size) + 1vw);
+}
+
+.first-letter {
+  font-weight: 700;
+}
+
+.invisible {
+  display: none;
 }
 
 .nav-main input[type="checkbox"] {
@@ -74,14 +83,7 @@ header::after {
   display: block;
 }
 
-.first-letter {
-  font-weight: 700;
-}
-
-.invisible {
-  display: none;
-}
-
+/* welcome section */
 .main-header--prefix {
   display: block;
   font-size: calc(var(--normal-font-size) + 0.5vw);
@@ -93,15 +95,13 @@ header::after {
 }
 
 .graphic {
-  text-align: center;
-  width: 100%;
-  height: auto;
   display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .mona-lisa {
   width: 100%;
+  margin: 0 auto;
 }
 
 

@@ -1,0 +1,33 @@
+@media (max-width: 165px) {
+  h1 {
+    font-size: calc(var(--normal-font-size) + .5vw);
+  }
+}
+
+@media (min-width: 320px) {
+  .invisible {
+    display: inline;
+  }
+}
+
+@media (min-width: 360px) {
+  .logo {
+    font-size: calc(var(--normal-font-size) + 2vw);
+  }
+}
+
+@media (min-width: 550px) {
+  .graphic {
+    width: 75%;
+  }
+}
+
+@media (min-width: 700px) {
+  .welcome .container {
+    display: flex;
+  }
+
+  .mona-lisa {
+  width: 100%;
+  }
+}

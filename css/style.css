@@ -2,3 +2,6 @@
 @import url('variables.css');
 
 @import url('header.css');
+
+/* media queries */
+@import url('media-queries.css');
