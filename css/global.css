@@ -21,6 +21,11 @@ body {
   padding: 10px 20px;
 }
 
+section {
+  padding-block-start: 70px;
+  padding-block-end: 50px;
+}
+
 a {
   text-decoration: none;
   color: var(--white-color);

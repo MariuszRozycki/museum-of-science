@@ -23,8 +23,10 @@ header::after {
 
 /* nav */
 .nav-main {
+  width: 100%;
   border-bottom: 3px solid var(--white-color);
-  position: relative;
+  position: fixed;
+  background-color: var(--very-dark-blue-color);
 } 
 
 .nav-main .container {
@@ -33,12 +35,35 @@ header::after {
   justify-content: space-between;
 }
 
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
 .bars {
   display: block;
-  width: calc(var(--normal-font-size) + 1.5vw);
-  height: 2px;
-  background-color: white;
-  margin: 5px 0;
+  width: calc(var(--normal-font-size) + 2vw);
+  height: 4px;
+  background-color: var(--white-color);
+  border-radius: 50px;
+  transition: .2s;
+}
+
+/* transition */
+#hamburger-menu:checked ~ .hamburger-menu .bar-one {
+  transform: translateY(10px) rotate(45deg);
+}
+
+#hamburger-menu:checked ~ .hamburger-menu .bar-three {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+#hamburger-menu:checked ~ .hamburger-menu .bar-two {
+  transform: translate(100px);
+  opacity: 0;
 }
 
 .logo {
@@ -54,36 +79,48 @@ header::after {
   display: none;
 }
 
-.nav-main input[type="checkbox"] {
+#hamburger-menu {
   display: none;
 }
 
 .nav-main--list {
-  display: none;
+  transform: translateX(-1000px);
+  opacity: 0;
   position: fixed;
-  top: 35px;
-  left: 5%;
+  top: calc(var(--big-font-size) + 3vw);
   list-style-type: none;
   background-color: var(--white-color);
-  width: 90%;
+  width: 80%;
+  max-width: 400px;
   padding: 10px 20px;
   border-radius: 25px;
+  transition: .2s;
 }
 
 .nav-main--list a {
   display: block;
   color: var(--dark-blue-color);
   text-transform: uppercase;
-  padding: 10px 0;
+  padding: 7px 0;
   font-size: calc(var(--normal-font-size) + 1vw);
   font-weight: 600;
 }
 
 #hamburger-menu:checked ~ .nav-main--list {
-  display: block;
+  transform: translateX(0);
+  opacity: 1;
 }
 
 /* welcome section */
+.welcome .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  margin: 35px 0;
+}
+
 .main-header--prefix {
   display: block;
   font-size: calc(var(--normal-font-size) + 0.5vw);
@@ -96,12 +133,13 @@ header::after {
 
 .graphic {
   display: flex;
+  justify-content: flex-end;
   width: 100%;
 }
 
 .mona-lisa {
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 
