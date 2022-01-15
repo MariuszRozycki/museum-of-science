@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 600px) {
-  section {
+  .welcome {
     padding-block-start: 100px;
   }
 
@@ -58,5 +58,9 @@
 
   .main-header {
     font-size: 100px;
+  }
+
+  p {
+    font-size: 20px;
   }
 }
