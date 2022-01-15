@@ -5,14 +5,19 @@
 }
 
 @media (min-width: 320px) {
+  .logo {
+    font-size: calc(var(--normal-font-size) + .5vw);
+  }
+
   .invisible {
     display: inline;
   }
 }
 
+/* In case back to max-width: 1170px, change font-size to: font-size: calc(var(--normal-font-size) + 2vw); */
 @media (min-width: 380px) {
   .logo {
-    font-size: calc(var(--normal-font-size) + 2vw);
+    font-size: calc(var(--normal-font-size) + 1vw);
   }
 }
 
@@ -24,6 +29,7 @@
 }
 
 @media (min-width: 600px) {
+  /* header */
   .welcome {
     padding-block-start: 100px;
   }
@@ -44,10 +50,26 @@
   .graphic {
     width: 50%;
   } 
-}
 
+
+  /* main */
+  .explore-together .container {
+    max-width: 800px;
+  }
+
+  .explore-together__item {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+  }
+
+  .explore-together__item:nth-of-type(even) {
+    direction: rtl;
+    text-align: left;
+  }
+}
 /* max-width 1500px, because of h1 */
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .bars {
     width: 45px;
   }
@@ -60,7 +82,8 @@
     font-size: 100px;
   }
 
-  p {
+  p,
+  figcaption {
     font-size: 20px;
   }
 }

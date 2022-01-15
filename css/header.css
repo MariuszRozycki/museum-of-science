@@ -16,8 +16,10 @@
 .hamburger-menu {
   display: flex;
   flex-direction: column;
+  min-width: 60px;
   height: 30px;
   justify-content: space-around;
+  align-items: center;
   cursor: pointer;
 }
 

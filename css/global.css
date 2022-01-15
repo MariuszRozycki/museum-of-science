@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -40,7 +40,7 @@ h1 {
 h2 {
   color: var(--yellow-color);
   font-weight: 600;
-  font-size: calc(var(--normal-font-size) + 4px);
+  font-size: calc(var(--normal-font-size) + 10px);
   letter-spacing: 1px;
   font-style: italic;
   text-transform: uppercase;
@@ -48,13 +48,16 @@ h2 {
 
 p,
 figcaption {
+  font-weight: 300;
   font-style: italic;
   color: var(--white-color);
   font-size: calc(var(--normal-font-size) + 4px);
+  letter-spacing: 1px;
+  line-height: 1.4;
 }
 
 figure {
-  margin: 10px 0 60px;
+  margin: 10px 0 30px;
 }
 
 img {
