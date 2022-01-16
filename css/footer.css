@@ -1,7 +1,5 @@
 footer {
   background-color: var(--very-dark-blue-color);
-  padding-block-start: 20px;
-  padding-block-end: 70px;
 }
 
 footer li {
@@ -77,15 +75,23 @@ iframe {
   width: 100%;
 }
 
-.footer-bottom {
+.copyright {
   background-color: var(--orange-color);
+  padding-block-end: 20px;
+}
+
+.copyright ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px 0;
+  text-align: center;
   color: var(--white-color);
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  width: 100%;
 }
 
-.footer-bottom p {
-  margin: 5px 0;
+.copyright li {
+  text-align: center;
 }
+
