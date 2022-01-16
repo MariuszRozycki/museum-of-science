@@ -19,7 +19,7 @@
   min-width: 60px;
   height: 30px;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   cursor: pointer;
 }
 

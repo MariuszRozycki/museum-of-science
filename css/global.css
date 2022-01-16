@@ -83,10 +83,11 @@ figure img {
 .btn {
   display: inline-block;
   margin: 10px 15px;
-  padding: 5px 10px;
+  padding: 5px 12px;
   text-align: center;
   background-color: var(--orange-color);
   min-width: 85px;
+  text-transform: uppercase;
 }
 
 

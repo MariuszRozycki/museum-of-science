@@ -19,6 +19,32 @@
   .logo {
     font-size: calc(var(--normal-font-size) + 1vw);
   }
+
+  .newsletter-subscribe p {
+    font-size: calc(var(--normal-font-size) + 1px);
+  }
+
+  .newsletter-subscribe {
+    max-width: 80%;
+  }
+
+  map {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 420px) {
+  .newsletter-subscribe p {
+    font-size: calc(var(--normal-font-size) + 2px);
+  }
+
+  .invisible__to-newsletter {
+    display: inline-block;
+  }
+
+  .exclamation-mark {
+    display: none;
+  }
 }
 
 @media (min-width: 550px) {
@@ -29,16 +55,18 @@
 
   footer .container {
     grid-template-columns: auto 1fr;
-    column-gap: 100px;
+    grid-template-rows: repeat(5, auto); 
     row-gap: 50px;
   }
 
-.newsletter-subscribe {
-  align-self: center;
-  margin: 0;
-}
+  .newsletter-subscribe {
+    max-width: 100%;
+    align-self: center;
+    margin: 0;
+  }
 
   .social-media__wrapper {
+    text-align: center;
     align-self: center;
     margin-bottom: 0;
   }
@@ -48,8 +76,36 @@
   }
 
   .footer-nav__wrapper,
-  .footer-tags__wrapper {
+  .footer-tags__wrapper,
+  .footer-sub-nav__wrapper {
     display: block;
+  }
+
+  .footer-nav__wrapper {
+    grid-column: -1/1;
+  }
+
+  .nav-footer__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: calc(var(--normal-font-size) - 4px);
+    text-transform: uppercase;
+  }
+
+  .footer-sub-nav__wrapper {
+    grid-column: -1/1;
+    display: flex;
+    justify-content: space-between;
+    font-size: calc(var(--normal-font-size) - 4px);
+  }
+
+  .footer-sub-nav__wrapper a {
+    display: inline-block;
+    padding: 3px 0;
+  }
+
+  .location__wrapper {
+    grid-column: -1/1;
   }
 }
 
@@ -92,7 +148,34 @@
     direction: rtl;
     text-align: left;
   }
+
+  /* footer */
+  footer .container {
+    gap: 40px;
+  }
+
+  .social-media__wrapper a {
+    padding-right: 15px;
+  }
+  .nav-footer__list {
+    font-size: calc(var(--normal-font-size) - 3px);
+  }
+
+  .footer-sub-nav__wrapper {
+    font-size: var(--normal-font-size);
+  }
+
+  map {
+    max-width: 100%;
+  }
 }
+
+@media (min-width: 700px) {
+  .social-media__wrapper a {
+    font-size: 40px;
+  }
+}
+
 /* max-width 1500px, because of h1 */
 @media (min-width: 1300px) {
   .bars {
