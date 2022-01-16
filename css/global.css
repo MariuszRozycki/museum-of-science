@@ -15,6 +15,18 @@ body {
     font-family: 'Noto Sans Display', sans-serif;;
 }
 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* global */
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -67,3 +79,14 @@ img {
 figure img {
   margin-bottom: 10px;
 }
+
+.btn {
+  display: inline-block;
+  margin: 10px 15px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: var(--orange-color);
+  min-width: 85px;
+}
+
+

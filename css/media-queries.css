@@ -26,6 +26,31 @@
     width: 90%;
     margin: 35px 0;
   }
+
+  footer .container {
+    grid-template-columns: auto 1fr;
+    column-gap: 100px;
+    row-gap: 50px;
+  }
+
+.newsletter-subscribe {
+  align-self: center;
+  margin: 0;
+}
+
+  .social-media__wrapper {
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .social-media__wrapper a {
+    font-size: calc(var(--normal-font-size) + 3vw);
+  }
+
+  .footer-nav__wrapper,
+  .footer-tags__wrapper {
+    display: block;
+  }
 }
 
 @media (min-width: 600px) {
