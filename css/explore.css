@@ -1,0 +1,67 @@
+.explore.welcome {
+  background-image: url('../images/mammoth-1257288_1920.jpg');
+  overflow-x: clip;
+}
+
+.explore.welcome::after {
+  background-color: rgba(36, 54, 98, 97%);
+}
+
+.explore.nav-section {
+  margin-bottom: 50px;
+}
+
+.explore.nav-section ul {
+  position: relative;
+  z-index: 2;
+}
+
+.explore .main-section__item {
+  background: linear-gradient(#0800FF, #020202);
+  padding: 5px 20px 25px;
+}
+
+.explore .main-section__item:nth-child(even) {
+  background: none;
+}
+
+.explore.welcome a,
+.explore.main-section a {
+  color: var(--yellow-color);
+  font-size: calc(var(--normal-font-size) + 8px);
+}
+
+.explore.main-section a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.explore .graphic {
+  justify-content: center;
+  position: relative;
+  transform: rotate(-10deg);
+}
+
+.explore .graphic::after {
+  display: block;
+  content: "";
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsla(34, 100%, 50%, 80%);
+  opacity: .5;
+  z-index: 0;
+}
+
+.explore.main-section .container {
+  padding: 0;
+}
+
+.explore img {
+  border-radius: 25px;
+}
+
+

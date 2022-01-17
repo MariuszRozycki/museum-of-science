@@ -66,7 +66,7 @@ footer li {
 .location__wrapper li:nth-of-type(1),
 .opening-hours li:nth-of-type(1) {
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 map,
@@ -75,9 +75,13 @@ iframe {
   width: 100%;
 }
 
+iframe {
+  height: 300px;
+}
+
 .copyright {
   background-color: var(--orange-color);
-  padding-block-end: 20px;
+  padding: 10px 0;
 }
 
 .copyright ul {

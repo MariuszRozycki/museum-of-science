@@ -34,8 +34,8 @@ li {
 }
 
 section {
-  padding-block-start: 20px;
-  padding-block-end: 50px;
+  /* padding-block-start: 20px;
+  padding-block-end: 50px; */
 }
 
 a {
@@ -69,7 +69,12 @@ figcaption {
 }
 
 figure {
-  margin: 10px 0 30px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+
+  padding: 10px 0 30px;
 }
 
 img {

@@ -1,14 +1,14 @@
 /* main */
-.explore-together {
+.main-section {
   background: linear-gradient(#243A64, #070B14)
 }
 
 /* I don't know yet to change max-width to 900px? */
-/* .explore-together .container {
+/* .main-section .container {
   max-width: 900px;
 } */
 
-.explore-together__item {
+.main-section__top-figure {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
