@@ -14,13 +14,15 @@
 }
 
 .explore .main-section__item {
-  background: linear-gradient(#0800FF, #020202);
+  background: linear-gradient(#020047, #020202);
   padding: 5px 20px 25px;
   border-radius: 25px;
+  margin: 20px;
 }
 
 .explore .main-section__item:nth-child(even) {
   background: none;
+  box-shadow: 0px 0px 40px 5px #000;
 }
 
 .explore.welcome a,
