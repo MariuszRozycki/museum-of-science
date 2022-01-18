@@ -125,8 +125,8 @@
   z-index: -1;
 }
 .welcome .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .main-header {
@@ -152,16 +152,10 @@
   display: block;
 }
 
-.graphic {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-
 .graphic-img {
-  object-fit: contain;
   width: 100%;
   margin: 0;
+  object-fit: contain;
 }
 
 
