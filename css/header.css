@@ -1,3 +1,7 @@
+header {
+  overflow-x: clip;
+}
+
 /* nav */
 .nav-main {
   width: 100%;
