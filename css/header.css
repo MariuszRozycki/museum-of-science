@@ -157,7 +157,8 @@
   width: 100%;
 }
 
-.mona-lisa {
+.graphic-img {
+  object-fit: contain;
   width: 100%;
   margin: 0;
 }

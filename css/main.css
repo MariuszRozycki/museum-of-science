@@ -4,9 +4,9 @@
 }
 
 /* I don't know yet to change max-width to 900px? */
-/* .main-section .container {
-  max-width: 900px;
-} */
+.main-section .container {
+  max-width: 800px;
+}
 
 .main-section__top-figure {
   display: grid;

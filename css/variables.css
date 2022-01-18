@@ -5,7 +5,7 @@
 
 :root {
   /* colors */
-  --orange-color: #ff9100;
+  --orange-color: hsl(34, 100%, 50%);
   --yellow-color: #FFF700;
   --light-blue-color: #334B84;
   --dark-blue-color: #243662;
