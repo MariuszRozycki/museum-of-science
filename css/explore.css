@@ -13,6 +13,10 @@
   z-index: 2;
 }
 
+.explore .main-section__item-wrapper {
+  margin: auto;
+}
+
 .explore .main-section__item {
   background: linear-gradient(#020047, #020202);
   padding: 5px 20px 25px;
