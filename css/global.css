@@ -33,10 +33,9 @@ li {
   padding: 10px 5px;
 }
 
-/* section {
-  padding-block-start: 20px;
-  padding-block-end: 50px;
-} */
+section {
+  padding: 10px;
+}
 
 a {
   text-decoration: none;
@@ -47,6 +46,7 @@ h1 {
   color: var(--white-color);
   font-weight: normal;
   font-size: calc(var(--normal-font-size) + 6vw);
+  line-height: 0.9;
 }
 
 h2 {
