@@ -20,6 +20,8 @@ footer .container {
   margin-top: 20px;
   margin-bottom: 10px;
   padding: 0 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .invisible__to-newsletter {

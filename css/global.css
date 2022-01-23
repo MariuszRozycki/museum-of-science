@@ -49,14 +49,19 @@ h1 {
   line-height: 0.9;
 }
 
-h2 {
+h2,
+h3 {
   color: var(--yellow-color);
   font-weight: 600;
-  font-size: calc(var(--normal-font-size) + 6px);
+  font-size: calc(var(--normal-font-size) + 2vw);
   letter-spacing: 1px;
   font-style: italic;
   text-transform: uppercase;
   margin: 10px 0;
+}
+
+h3 {
+  font-size: calc(var(--normal-font-size) + 4px);
 }
 
 p,
@@ -83,6 +88,17 @@ img {
   object-position: center;
 }
 
+.graphic {
+  margin-top: 20px;
+}
+
+.graphic img,
+.graphic-overlay::after,
+.main-section__item,
+.main-section__item__img-wrapper img {
+  border-radius: 15px;
+}
+
 figure img {
   margin-bottom: 10px;
 }
@@ -97,4 +113,35 @@ figure img {
   text-transform: uppercase;
 }
 
+.welcome a,
+.main-section a {
+  color: var(--yellow-color);
+  font-size: calc(var(--normal-font-size) + 8px);
+}
+
+
+/* media-queries global */
+@media (min-width: 420px) {
+  .main-section .container::after,
+  .main-section .container::before {
+    display: block;
+    content: "";
+    width: 50%;
+    height: 50%;
+    background-color: rgba(58, 117, 255, 0.5);
+    box-shadow: 0px 0px 40px 5px #000;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .main-section .container::before {
+    bottom: 0;
+    left: 0;
+  }
+
+  .main-section .container::after {
+    top: 0;
+    right: 0;
+  }
+}
 

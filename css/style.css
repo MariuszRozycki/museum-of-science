@@ -1,10 +1,12 @@
 @import url('global.css');
 @import url('variables.css');
 
-@import url('header.css');
+/* @import url('home-page2.css'); */
+@import url('welcome.css');
 @import url('main.css');
 @import url('footer.css');
 @import url('explore.css');
+@import url('exhib-spaces.css');
 
 /* media queries */
 @import url('media-queries.css');
