@@ -57,7 +57,7 @@ h3 {
   letter-spacing: 1px;
   font-style: italic;
   text-transform: uppercase;
-  margin: 10px 0;
+  margin: 10px 0 20px;
 }
 
 h3 {
@@ -119,6 +119,19 @@ figure img {
   font-size: calc(var(--normal-font-size) + 8px);
 }
 
+.main-section__item-wrapper {
+  display: grid;
+  row-gap: 35px;
+}
+
+.main-section__item {
+  display: grid;
+  gap: 5px;
+}
+
+.main-section__item__img-wrapper {
+  grid-row: 2/3;
+}
 
 /* media-queries global */
 @media (min-width: 420px) {

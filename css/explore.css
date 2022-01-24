@@ -20,8 +20,6 @@
 .explore .main-section__item {
   background: linear-gradient(#020047, #020202);
   padding: 5px 20px 25px;
-  /* border-radius: 25px; */
-  margin: 20px 0;
   box-shadow: 0px 0px 40px 5px #000;
 } 
 
