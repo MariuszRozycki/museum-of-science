@@ -50,6 +50,7 @@
 .explore .main-section__item__img-wrapper {
   width: 100%;
   height: 200px;
+  align-self: center;
 }
 
 .explore .main-section__item__img-wrapper img {

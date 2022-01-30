@@ -125,7 +125,6 @@
   z-index: -1;
 }
 .welcome .container {
-  display: grid;
   grid-template-columns: 1fr;
 }
 
