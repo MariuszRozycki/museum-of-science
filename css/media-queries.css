@@ -54,11 +54,15 @@
     padding: 20px;
     box-shadow: 0px 0px 40px 5px #000;
   }
+
+  .main-section__item__img-wrapper {
+    grid-column: 1/1;
+  }
+
   
   /* explore */
   .explore .container {
     grid-template-columns: auto auto;
-    /* grid-template-rows: auto auto; */
   }
 
   .explore .graphic {
@@ -93,16 +97,6 @@
     width: 100%;
     height: 100%;
   }
-
-  .explore .main-section__item p {
-    grid-column: 1/1;
-    grid-row: 2/3;
-  }
-
-  .explore.main-section a {
-    grid-row: 3/4;
-  }
-
 
   /* exhibition spaces */
   .spaces .graphic {
@@ -174,8 +168,6 @@
   .explore .main-section__item__img-wrapper {
     width: 200px;
     height: 200px;
-    grid-row: 1/4;
-    grid-column: 2/3;
     justify-self: center;
     align-self: center;
   }
