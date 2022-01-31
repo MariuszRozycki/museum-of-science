@@ -135,6 +135,7 @@ figure img {
 }
 
 .main-section__item__img-wrapper {
+  height: 200px;
   grid-row: 2/3;
 }
 
