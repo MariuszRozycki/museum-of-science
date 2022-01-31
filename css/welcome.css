@@ -155,6 +155,8 @@
   width: 100%;
   margin: 0;
   object-fit: contain;
+  font-family: 'Noto Sans Display', sans-serif;
+  text-transform: uppercase;
 }
 
 
