@@ -1,11 +1,3 @@
-.for-teachers .graphic-overlay {
-  transform: none;
-}
-
-.for-teachers .graphic-overlay::after {
-  background-color: transparent;
-}
-
 .for-teachers .nav-section li:nth-child(2) a {
   border-bottom: 4px solid rgb(255, 247, 0);
 }
