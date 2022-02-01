@@ -149,10 +149,6 @@ figure img {
   color: var(--yellow-color);
 }
 
-.nav-section li:nth-child(2) a {
-  border-bottom: 4px solid rgb(255, 247, 0);
-}
-
 .main-section__item-wrapper {
   display: grid;
   row-gap: 35px;
