@@ -193,7 +193,8 @@
     grid-template-rows: auto auto auto;
     justify-content: center;
     column-gap: 20px;
-    padding: 35px 30px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
   .explore .main-section__item a,

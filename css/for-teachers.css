@@ -1,0 +1,15 @@
+.for-teachers .graphic-overlay {
+  transform: none;
+}
+
+.for-teachers .graphic-overlay::after {
+  background-color: transparent;
+}
+
+.nav-section li:nth-child(2) a {
+  border-bottom: 4px solid rgb(255, 247, 0);
+}
+
+.for-teachers.main-section .main-section__item {
+  grid-template-rows: 1fr;
+}
