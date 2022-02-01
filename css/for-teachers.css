@@ -6,7 +6,7 @@
   background-color: transparent;
 }
 
-.nav-section li:nth-child(2) a {
+.for-teachers .nav-section li:nth-child(2) a {
   border-bottom: 4px solid rgb(255, 247, 0);
 }
 
