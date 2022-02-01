@@ -1,0 +1,25 @@
+.for.main-section .main-section__item {
+  grid-template-rows: 1fr;
+}
+
+.for-kids .nav-section li:nth-child(1) a {
+  border-bottom: 4px solid rgb(255, 247, 0);
+}
+
+.for-teachers .nav-section li:nth-child(2) a {
+  border-bottom: 4px solid rgb(255, 247, 0);
+}
+
+.for-researchers .nav-section li:nth-child(3) a {
+  border-bottom: 4px solid rgb(255, 247, 0);
+}
+
+.for-researchers .container::after {
+  height: 80%;
+}
+
+.for-researchers .container::before {
+  display: none;
+}
+
+
