@@ -30,6 +30,14 @@
   border-bottom: 2px solid rgb(255, 247, 0);
 }
 
+.ecology .nav-section li:nth-child(4) a {
+  border-bottom: 2px solid rgb(255, 247, 0);
+}
+
+.biology .nav-section li:nth-child(5) a {
+  border-bottom: 2px solid rgb(255, 247, 0);
+}
+
 .exhib__sub-web .container::after {
   height: 80%;
 }
