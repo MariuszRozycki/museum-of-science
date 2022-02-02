@@ -1,0 +1,35 @@
+.exhib__sub-web.main-section {
+  background: linear-gradient(#355091, #070B14);
+}
+
+.exhib__sub-web .main-section__item {
+  box-shadow: none;
+}
+
+.exhib__sub-web .video {
+  grid-column: 1/5;
+  background-color: var(--dark-blue-color);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.exhib__sub-web iframe {
+  border-radius: 15px;
+  border: none;
+}
+
+.cosmology .nav-section li:nth-child(1) a {
+  border-bottom: 2px solid rgb(255, 247, 0);
+}
+
+.evolution .nav-section li:nth-child(2) a {
+  border-bottom: 2px solid rgb(255, 247, 0);
+}
+
+.exhib__sub-web .container::after {
+  height: 80%;
+}
+
+.exhib__sub-web .container::before {
+  display: none;
+}

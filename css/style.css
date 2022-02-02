@@ -1,7 +1,7 @@
 @import url('global.css');
 @import url('variables.css');
 
-/* @import url('home-page2.css'); */
+
 @import url('welcome.css');
 @import url('main.css');
 @import url('footer.css');
@@ -10,6 +10,7 @@
 @import url('events.css');
 @import url('visit.css');
 @import url('for.css');
+@import url('exhib__sub-web.css');
 
 /* media queries */
 @import url('media-queries.css');
