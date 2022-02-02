@@ -26,6 +26,10 @@
   border-bottom: 2px solid rgb(255, 247, 0);
 }
 
+.robotics .nav-section li:nth-child(3) a {
+  border-bottom: 2px solid rgb(255, 247, 0);
+}
+
 .exhib__sub-web .container::after {
   height: 80%;
 }
