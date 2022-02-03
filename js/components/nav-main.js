@@ -16,7 +16,7 @@ navMain.innerHTML +=
     <li><a href="../../layout/get-involved.html" title="Community Sience Museum || Get Involved">Get Involved</a></li>
     <li><a href="../../layout/visit.html" title="Community Sience Museum || Visit Our Museum">Visit</a></li>
   </ul>
-  <a href="./index.html" class="logo">
+  <a href="../../index.html" class="logo">
     <span class="first-letter">C</span><span class="invisible">ommunity</span> <span
       class="first-letter">S</span><span class="invisible">ience</span> <span class="first-letter">M</span><span
       class="invisible">useum</span></a>
