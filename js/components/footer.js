@@ -56,7 +56,7 @@ footer.innerHTML +=
     <map name="museum-location">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.9028013622758!2d10.781189416098105!3d59.966935781886484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464171e7f06b20d1%3A0xa4dc7a6bef326423!2sKjels%C3%A5sveien%20143%2C%200491%20Oslo%2C%20Norway!5e0!3m2!1sen!2sua!4v1642270076151!5m2!1sen!2sua"
-        style="border:0;" allowfullscreen=""></iframe>
+        style="border:0;" allowfullscreen="" title="Location of Community Sience Museum"></iframe>
     </map>
   </div>
   <ul class="opening-hours">

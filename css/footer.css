@@ -81,7 +81,7 @@ iframe {
 }
 
 .copyright {
-  background-color: var(--orange-color);
+  background-color: #ff5722;
   padding: 10px 0;
   cursor: pointer;
 }
