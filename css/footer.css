@@ -83,6 +83,7 @@ iframe {
 .copyright {
   background-color: var(--orange-color);
   padding: 10px 0;
+  cursor: pointer;
 }
 
 .copyright ul {

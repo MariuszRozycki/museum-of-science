@@ -65,6 +65,10 @@ h3 {
   margin: 10px 0 20px;
 }
 
+h2 span {
+  display: block;
+}
+
 h3 {
   font-size: calc(var(--normal-font-size) + 3px);
 }
@@ -189,7 +193,7 @@ figure img {
   }
 
   .main-section .container::after {
-    top: 60px;
+    top: 90px;
     right: 0;
   }
 }

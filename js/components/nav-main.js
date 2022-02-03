@@ -1,0 +1,23 @@
+const navMain = document.querySelector('.nav-main');
+
+navMain.innerHTML +=
+  `<div class="container">
+  <input type="checkbox" id="hamburger-menu">
+  <label for="hamburger-menu" class="hamburger-menu">
+    <span class="bars bar-one"></span>
+    <span class="bars bar-two"></span>
+    <span class="bars bar-three"></span>
+  </label>
+  <ul class="nav-main__list">
+    <li><a href="../../index.html" title="Community Sience Museum || Home Page">Home</a></li>
+    <li><a href="../../layout/explore.html" title="Community Sience Museum || Explore Our Museum">Explore</a></li>
+    <li><a href="../../layout/exhib-spaces.html" title="Community Sience Museum || Exhibition Spaces">Exhibition Spaces</a></li>
+    <li><a href="../../layout/events.html" title="Community Sience Museum || Special Events & Exhibitions">Special Events & Exhibitions</a></li>
+    <li><a href="../../layout/get-involved.html" title="Community Sience Museum || Get Involved">Get Involved</a></li>
+    <li><a href="../../layout/visit.html" title="Community Sience Museum || Visit Our Museum">Visit</a></li>
+  </ul>
+  <a href="./index.html" class="logo">
+    <span class="first-letter">C</span><span class="invisible">ommunity</span> <span
+      class="first-letter">S</span><span class="invisible">ience</span> <span class="first-letter">M</span><span
+      class="invisible">useum</span></a>
+</div>`

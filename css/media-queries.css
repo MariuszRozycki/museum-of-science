@@ -33,6 +33,10 @@
 
 @media (min-width: 420px) {
   /* home-page */
+  h2 span {
+    display: inline;
+  }
+
   .container {
     padding: 10px 20px;
   }
@@ -403,6 +407,7 @@
   /* visit */
   .visit .container {
     grid-template-columns: 35% 65%;
+    grid-template-rows: auto minmax(auto, 300px);
   }
 
   /* for researchers */
@@ -507,7 +512,7 @@ footer .container {
   }
 
   .main-header {
-    font-size: 100px;
+    font-size: 90px;
   }
 
   p,
