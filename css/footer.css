@@ -31,7 +31,8 @@ footer .container {
 .newsletter-subscribe p {
   letter-spacing: 0;
   justify-self: center;
-  color: var(--yellow-color);
+  color: var(--white-color);
+  font-weight: 400;
 }
 
 .btn__sign-up {
@@ -39,7 +40,7 @@ footer .container {
   justify-content: center;
   align-items: center;
   color: #000;
-  background-color: var(--white-color);
+  background-color: var(--orange-color);
   font-weight: 600;
 }
 
