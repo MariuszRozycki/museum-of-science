@@ -138,6 +138,7 @@
 .main-header span:nth-of-type(3), 
 .main-header span:nth-of-type(4) {
   margin: 0;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .main-header__prefix {
@@ -145,6 +146,9 @@
   font-size: calc(var(--normal-font-size) + 0.5vw);
   font-style: italic;
   margin-bottom: 20px;
+  color: black;
+  text-shadow: 2px 2px 5px #ff5722;
+  font-weight: 700;
 }
 
 .main-header__word {
