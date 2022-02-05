@@ -1,3 +1,8 @@
+.spaces::after {
+  background-image: url('../images/images_from_noroff/roberto-nickson-396152.jpg');
+  opacity: 9%;
+}
+
 .spaces .nav-section {
   margin-bottom: 25px;
 }
@@ -10,4 +15,24 @@
 .spaces .graphic img {
   object-fit: cover;
   object-position: center 70%;
+}
+
+.biology::after {
+  background-image: url('../images/images_from_noroff/heart-2607178_1920.jpg');
+}
+
+.cosmology::after {
+  background-image: url('../images/images_my/cosmology/earth-g8b77cf178_640.jpg');
+}
+
+.ecology::after {
+  background-image: url('../images/images_my/ecology/nature-g20be6b3c8_640.jpg');
+}
+
+.evolution::after {
+  background-image: url('../images/images_my/evolution/evolution.jpg');
+}
+
+.robotics::after {
+  background-image: url('../images/images_my/IA-main/IA-main.jpg');
 }
