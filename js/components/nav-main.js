@@ -15,6 +15,7 @@ navMain.innerHTML +=
     <li><a href="../../layout/events.html" title="Community Sience Museum || Special Events & Exhibitions">Special Events & Exhibitions</a></li>
     <li><a href="../../layout/get-involved.html" title="Community Sience Museum || Get Involved">Get Involved</a></li>
     <li><a href="../../layout/visit.html" title="Community Sience Museum || Visit Our Museum">Visit</a></li>
+    <li><a href="../../layout/contact.html" title="Community Sience Museum || Contact">Contact</a></li>
   </ul>
   <a href="../../index.html" class="logo">
     <span class="first-letter">C</span><span class="invisible">ommunity</span> <span
