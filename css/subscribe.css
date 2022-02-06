@@ -1,0 +1,8 @@
+.subscribe::after {
+  background-image: url('../images/images_my/subscribe/pexels-andrea-piacquadio-3824771.jpg');
+}
+
+.subscribe.main-section .container::after,
+.subscribe.main-section .container::before {
+    display: none;
+  }

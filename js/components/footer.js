@@ -6,7 +6,7 @@ footer.innerHTML +=
     <p>Subscribe<span class="exclamation-mark">!</span> <span class="invisible__to-newsletter">to
         newsletter!</span>
     </p>
-    <a class="btn btn__sign-up" href="#">Sign up!</a>
+    <a class="btn btn__sign-up" href="../../layout/subscribe.html" title="Community Sience Museum || Subscribe">Sign up!</a>
   </div>
   <div class="social-media__wrapper">
     <a href="#"><i class="fab fa-facebook"></i></a>
