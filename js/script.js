@@ -35,13 +35,9 @@ for (let element of mainElements) {
 
 /* form */
 const createAppointment = (appointment) => {
-  console.log(appointment);
-
   const appointmentMessage = document.querySelector('.appointment-message');
 
-
-
-  fetch('https://formspree.io/f/xnqogare', {
+  fetch('https://formspree.io/f/mdobeygr', {
     headers: {
       'Content-Type': 'application/json',
     },
@@ -51,25 +47,10 @@ const createAppointment = (appointment) => {
   })
     .then(res => res.json())
     .then(resJSON => {
-      console.log(resJSON);
-
-      let html = document.getElementsByTagName('html')[0];
-      let htmlAttr = html.getAttribute('lang');
-      console.log(htmlAttr);
-
       appointmentMessage.classList.add('send');
       appointmentMessage.classList.remove('failure');
-
-      if (htmlAttr === 'pl') {
-        appointmentMessage.innerText = `Dzięki ${appointment.name}. Wiadomosc wyslana!`;
-      } else if (htmlAttr === 'en') {
-        appointmentMessage.innerText = `Thank you ${appointment.name}. Your message is sent!`;
-      } else {
-        appointmentMessage.innerText = `Takk ${appointment.name}. Meldingen din er sendt!`;
-      }
+      appointmentMessage.innerText = `Thank you ${appointment.name}. Your message is sent!`;
     });
-
-
 }
 
 
@@ -89,18 +70,13 @@ appointemntForm.addEventListener('submit', function (event) {
     message: document.getElementById('appointment-message').value,
   }
 
-  console.log(typeof appointment.phone.value);
-
-
   for (let i = 0; i < formFields.length; i++) {
-
-    console.log(formFields[3]);
 
     if (formFields[i].value === '') {
       ++fieldsErrors;
-      formFields[i].classList.add('failure');
+      formFields[i].classList.add('failure-field');
     } else {
-      formFields[i].classList.remove('failure');
+      formFields[i].classList.remove('failure-field');
     }
   }
 
@@ -108,17 +84,6 @@ appointemntForm.addEventListener('submit', function (event) {
     createAppointment(appointment);
   } else {
     appointmentMessage.classList.add('failure');
-
-    let html = document.getElementsByTagName('html')[0];
-    let htmlAttr = html.getAttribute('lang');
-
-    if (htmlAttr === 'pl') {
-      appointmentMessage.innerText = `Proszę, wypełnij wszystkie puste pola!`;
-
-    } else if (htmlAttr === 'en') {
-      appointmentMessage.innerText = `Fill up all empty fields!`;
-    } else {
-      appointmentMessage.innerText = `Vennligst fyll ut alle feltene!`;
-    }
+    appointmentMessage.innerText = `Fill up all empty fields!`;
   }
 });

@@ -57,6 +57,14 @@
 }
 
 .contact h3,
+.contact p,
+.contact input,
+.contact textarea {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 500;
+}
+
+.contact h3,
 .contact p {
   grid-column: 1/7;
 }
@@ -74,8 +82,40 @@
   min-height: 200px;
 }
 
+.contact ::placeholder {
+  color: var(--very-dark-blue-color);
+}
+
 .btn-form {
+  font-family: 'Noto Sans Display', sans-serif;
   padding: 15px 10px;
   font-size: var(--normal-font-size);
   grid-column: 1/7;
+  font-weight: 600;
+}
+
+/* errors */
+.contact .failure,
+.contact .send { 
+  background-color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.contact .failure-field {
+  background-color: #fff28ceb;
+  color: var(--white-color);
+}
+
+.contact .failure-field::placeholder {
+  color: red;
+}
+
+.send {
+  color: green;
+}
+
+.failure {
+  color: red;
 }
