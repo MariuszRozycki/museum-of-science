@@ -14,7 +14,7 @@ for (let element of mainElements) {
       mainSectionWrapper.innerHTML +=
         `<div class="main-section__item" onclick="location.href='${element.onclick}'">
         <h3 class="sub-title">${element.title}</h3>
-        <div class="main-section__item__img-wrapper">
+        <div id="${element.linkId}" class="main-section__item__img-wrapper">
           <img src="${element.image}" alt="${element.altText}">
         </div>
         <p>${element.description}</p>
