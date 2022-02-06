@@ -155,5 +155,50 @@ const mainElements = [
     that scientists explore how to create a sustainable future...`,
     link: true,
     operated: true
-  }
+  },
+
+  /* special events */
+  {
+    id: 14,
+    category: 'events',
+    onclick: './../layout/contact.html',
+    title: 'Visiting profesor of aeronautics',
+    image: './../images/images_my/profesor-of-astronautics/profesor-of-astronautics.jpg',
+    altText: 'Picture of profesor of aeronautics',
+    description: `It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology
+    will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting
+    ‘space’.`,
+    link: true,
+    linkId: 'prof-aeronautics',
+    operated: true
+  },
+  {
+    id: 15,
+    category: 'events',
+    onclick: './../layout/contact.html',
+    title: 'Night in the Museum',
+    image: './../images/images_my/museum-night/pexels-adam-borkowski-5674215.jpg',
+    altText: 'City by night',
+    description: `Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and
+    science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of
+    science.`,
+    link: true,
+    linkId: 'night-in-museum',
+    operated: true
+  },
+  {
+    id: 16,
+    category: 'events',
+    onclick: './../layout/contact.html',
+    title: 'Energetica Exhibition on Loan',
+    image: './../images/images_my/energetica-exhibition/energetica-exhibition.jpg',
+    altText: 'Picture of windmill',
+    description: `On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community
+    Science Museum. It’s a series of installations that allow visitors to experience the power of the elements
+    as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able
+    to use and control wind to create power.`,
+    link: true,
+    linkId: 'energetica',
+    operated: true
+  },
 ]
