@@ -1,0 +1,11 @@
+.contact::after {
+  background-image: url('../images/images_my/contact-us/contact-us.jpg');
+}
+
+.contact .main-section__item-wrapper {
+  display: block;
+}
+
+.contact form {
+  display: grid;
+}
