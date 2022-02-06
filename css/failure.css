@@ -1,0 +1,8 @@
+.failure.main-section .container::after,
+.failure.main-section .container::before {
+  display: none;
+}
+
+.failure .graphic img {
+  object-position: 50% 75%;
+}

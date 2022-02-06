@@ -9,10 +9,10 @@ footer.innerHTML +=
     <a class="btn btn__sign-up" href="../../layout/subscribe.html" title="Community Sience Museum || Subscribe">Sign up!</a>
   </div>
   <div class="social-media__wrapper">
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="../../layout/failure.html"><i class="fab fa-facebook"></i></a>
+    <a href="../../layout/failure.html"><i class="fab fa-twitter"></i></a>
+    <a href="../../layout/failure.html"><i class="fab fa-instagram"></i></a>
+    <a href="../../layout/failure.html"><i class="fab fa-youtube"></i></a>
   </div>
   <div class="footer-nav__wrapper">
     <ul class="nav-footer__list">
