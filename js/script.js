@@ -34,10 +34,11 @@ for (let element of mainElements) {
 }
 
 /* form */
+/* https://formspree.io/f/mdobeygr */
 const createAppointment = (appointment) => {
   const appointmentMessage = document.querySelector('.appointment-message');
 
-  fetch('https://formspree.io/f/mdobeygr', {
+  fetch('', {
     headers: {
       'Content-Type': 'application/json',
     },
