@@ -2,6 +2,10 @@
   background-image: url('../images/images_my/contact-us/contact-us.jpg');
 }
 
+.contact .graphic img {
+  object-position: 70%;
+}
+
 .contact .main-section__item-wrapper {
   display: block;
 }
