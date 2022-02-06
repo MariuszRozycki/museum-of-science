@@ -1,4 +1,6 @@
 const footer = document.querySelector('.footer');
+let signUp = `<a class="btn btn__sign-up" href="../../layout/subscribe.html" title="Community Sience Museum || Subscribe">Sign up!</a>`
+
 
 footer.innerHTML +=
   `<div class="container">
@@ -6,7 +8,7 @@ footer.innerHTML +=
     <p>Subscribe<span class="exclamation-mark">!</span> <span class="invisible__to-newsletter">to
         newsletter!</span>
     </p>
-    <a class="btn btn__sign-up" href="../../layout/subscribe.html" title="Community Sience Museum || Subscribe">Sign up!</a>
+    ${signUp}
   </div>
   <div class="social-media__wrapper">
     <a href="../../layout/failure.html"><i class="fab fa-facebook"></i></a>
@@ -78,3 +80,14 @@ footer.innerHTML +=
     <li>+47 939 28 270</li>
   </ul>
 </div>`
+
+let btnSignUp = document.querySelector('.btn__sign-up');
+if (document.querySelector('title').innerText === 'Community Sience Museum || Subscribe') {
+  btnSignUp.innerText = `Cancel`;
+
+  btnSignUp.addEventListener('click', function (e) {
+    e.preventDefault();
+    location.href = '../../index.html';
+  });
+}
+

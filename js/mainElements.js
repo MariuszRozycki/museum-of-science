@@ -270,4 +270,21 @@ const mainElements = [
     linkId: 'interships',
     operated: true
   },
+
+  /* visit */
+  {
+    id: 20,
+    category: 'visit',
+    onclick: 'https://www.google.com/maps/place/Kjelsåsveien+143,+0491+Oslo/@59.9669358,10.7833781,17z/data=!4m2!3m1!1s0x464171e7f06b20d1:0xa4dc7a6bef326423',
+    title: 'Location',
+    image: './../images/images_my/visit.png',
+    altText: 'Picture location.',
+    description: `The museum is located at:
+    Kjelsåsveien 143, 0491 Oslo,
+    Norway`,
+    link: true,
+    linkText: 'Go to Google Maps',
+    linkId: 'location',
+    operated: true
+  },
 ]
