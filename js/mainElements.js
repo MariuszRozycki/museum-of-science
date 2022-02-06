@@ -8,7 +8,8 @@ const mainElements = [
     image: './../images/images_from_noroff/lab-512503_1920.jpg',
     altText: 'Labolatory',
     description: `Come join us at the Community Science Museum where we’re committed to making science accessible to all.`,
-    link: false,
+    link: true,
+    linkText: 'Click here',
     operated: true
   },
   {
@@ -19,7 +20,8 @@ const mainElements = [
     image: './../images/images_from_noroff/andrew-ruiz-348421.jpg',
     altText: 'Picture of an astronaut',
     description: `Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.`,
-    link: false,
+    link: true,
+    linkText: 'Click here',
     operated: true
   },
   {
@@ -28,11 +30,12 @@ const mainElements = [
     onclick: './../layout/events.html',
     title: 'Special events & exhibitions',
     image: './../images/images_from_noroff/learn-2405206_1920.jpg',
-    altText: 'Picture of youn student',
+    altText: 'Picture of young student',
     description: `The aim of our museum is to create a space where everyone can experience the wonders of our
     discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around
     us.`,
-    link: false,
+    link: true,
+    linkText: 'Click here',
     operated: true
   },
   {
@@ -45,7 +48,8 @@ const mainElements = [
     description: `We believe science should not be confined to the textbook, but brought to live through
     exhibits.
     This is why we have over 1000 different exhibits on the many varied subjects of science to explore.`,
-    link: false,
+    link: true,
+    linkText: 'Click here',
     operated: true
   },
   {
@@ -57,7 +61,8 @@ const mainElements = [
     altText: 'Picture of young scientist',
     description: `Many of these exhibits are designed for you to interact with and play around to see science
     come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).`,
-    link: false,
+    link: true,
+    linkText: 'Click here',
     operated: true
   },
 
@@ -71,6 +76,7 @@ const mainElements = [
     altText: 'Picture of a teacher',
     description: `Come join us at the Community Science Museum where we’re committed to making science accessible to all.`,
     link: true,
+    linkText: 'Click to know more',
     operated: true
   },
   {
@@ -82,6 +88,7 @@ const mainElements = [
     altText: 'Kids scientists',
     description: `… maybe you are young student and looking for something more about sience?`,
     link: true,
+    linkText: 'Click to know more',
     operated: true
   },
   {
@@ -93,6 +100,7 @@ const mainElements = [
     altText: 'Picture of researchers',
     description: `Are you looking to get involved with our team of researchers and academics?`,
     link: true,
+    linkText: 'Click to know more',
     operated: true
   },
 
@@ -106,6 +114,7 @@ const mainElements = [
     altText: 'Picture of cosmos',
     description: `Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’...`,
     link: true,
+    linkText: 'Show more details',
     operated: true
   },
   {
@@ -118,6 +127,7 @@ const mainElements = [
     description: `For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we
     come from and how did we get here?`,
     link: true,
+    linkText: 'Show more details',
     operated: true
   },
   {
@@ -130,6 +140,7 @@ const mainElements = [
     description: `From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights
     into the great wonders of the tiny world…`,
     link: true,
+    linkText: 'Show more details',
     operated: true
   },
   {
@@ -142,6 +153,7 @@ const mainElements = [
     description: `The information revolution is here and robotics and artificial intelligence are the science of the
     future...`,
     link: true,
+    linkText: 'Show more details',
     operated: true
   },
   {
@@ -154,6 +166,7 @@ const mainElements = [
     description: `As we learn more and more of the impact humans are having on the planet, the more important it becomes
     that scientists explore how to create a sustainable future...`,
     link: true,
+    linkText: 'Show more details',
     operated: true
   },
 
@@ -169,6 +182,7 @@ const mainElements = [
     will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting
     ‘space’.`,
     link: true,
+    linkText: 'Ask about more details',
     linkId: 'prof-aeronautics',
     operated: true
   },
@@ -182,6 +196,7 @@ const mainElements = [
     description: `Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and
     science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of
     science.`,
+    linkText: 'Ask about more details',
     link: true,
     linkId: 'night-in-museum',
     operated: true
@@ -198,7 +213,61 @@ const mainElements = [
     as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able
     to use and control wind to create power.`,
     link: true,
+    linkText: 'Ask about more details',
     linkId: 'energetica',
+    operated: true
+  },
+
+  /* get involved */
+  {
+    id: 17,
+    category: 'get-involved',
+    onclick: './../layout/contact.html',
+    title: 'Support',
+    image: './../images/images_my/support/support.jpg',
+    altText: 'Picture of ball from money',
+    description: `There are various ways you can support the museum. Donations are very welcome and are an important way we
+    keep this museum open and accessible to the whole community.
+    You can also support us by donating items of interest to the museum’s collections. If you have some item
+    or collection that you think others would enjoy, please let us know by contacting our Collections
+    Department and they will be able to assist you.`,
+    link: true,
+    linkText: 'Write to us',
+    linkId: 'support',
+    operated: true
+  },
+  {
+    id: 18,
+    category: 'get-involved',
+    onclick: './../layout/contact.html',
+    title: 'Volunteer',
+    image: './../images/images_my/volunteer-description/volunteer-description.jpg',
+    altText: 'Volunteer - picture of hands',
+    description: `A number of people volunteer their time and effort to keep the displays in good order and ready for
+    visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a
+    working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come
+    together to discuss ideas for future exhibits and strategies for the museum.
+    You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more
+    about how you can get involved.`,
+    link: true,
+    linkText: 'Write to us',
+    linkId: 'volunteer',
+    operated: true
+  },
+  {
+    id: 19,
+    category: 'get-involved',
+    onclick: './../layout/contact.html',
+    title: 'Internships',
+    image: './../images/images_my/interships/chemistry-g3ea48b9ac_640.jpg',
+    altText: 'Picture of young chemistry worker',
+    description: `Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of
+    nature with people? Well you could be just the right person to enjoy an internship at the museum.
+    You’ll be learning from a number of different academics and people who are passionate about science and
+    sharing it with the wider community.`,
+    link: true,
+    linkText: 'Write to us',
+    linkId: 'interships',
     operated: true
   },
 ]
