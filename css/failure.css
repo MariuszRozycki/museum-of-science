@@ -6,3 +6,8 @@
 .failure .graphic img {
   object-position: 50% 75%;
 }
+
+.failure::after {
+  background-image: url('../images/images_my/error/pexels-mikhail-nilov-7534380.jpg');
+  background-position: left 5%;
+}

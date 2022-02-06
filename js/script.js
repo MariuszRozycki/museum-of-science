@@ -38,7 +38,7 @@ for (let element of mainElements) {
 const createAppointment = (appointment) => {
   const appointmentMessage = document.querySelector('.appointment-message');
 
-  fetch('', {
+  fetch('https://formspree.io/f/aaaaaa', {
     headers: {
       'Content-Type': 'application/json',
     },

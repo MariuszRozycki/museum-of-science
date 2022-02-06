@@ -105,7 +105,7 @@
 
 .contact .failure-field {
   background-color: #fff28ceb;
-  color: var(--white-color);
+  color: var(--very-dark-blue-color);
 }
 
 .contact .failure-field::placeholder {
