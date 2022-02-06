@@ -42,7 +42,12 @@
   color: var(--white-color);
 }
 
-.contact li:nth-last-of-type(1) {
+.contact .location__wrapper li {
+  margin: 0;
+  font-weight: 300;
+}
+
+.contact .telephone li:nth-last-of-type(1) {
   color: var(--yellow-color);
   text-shadow: 2px 2px 5px #000;
 }
