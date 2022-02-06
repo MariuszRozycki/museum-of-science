@@ -24,9 +24,9 @@
           <span class="main-header__word"><span class="first-letter">S</span>ervice</span>
         </h1>
         <ul class="nav-section">
-          <li><a href="#form">Write to Us</a></li>
-          <li><a href="#night-in-museum">Telephone</a></li>
-          <li><a href="#energetica">Location of our museum</a></li>
+          <li><a href="#appointment-form">Write to Us</a></li>
+          <li><a href="#loc">Location of our museum</a></li>
+          <li><a href="#tel">Telephone</a></li>
         </ul>
         <div class="graphic">
           <img class="graphic-img" src="../images/images_my/contact/pexels-pavel-danilyuk-7658358.jpg"
@@ -36,21 +36,52 @@
     </section>
   </header>
   <main>
-    <section class="events spaces explore main-section">
+    <section class="contact events spaces explore main-section">
       <div class="container">
-        <h2 class="sub-title">Contact</h2>
+        <h2 class="sub-title">Customer service</h2>
         <div class="main-section__item-wrapper">
           <form id="appointment-form" action="" method="POST">
+            <h3 class="sub-title">Write to us</h3>
             <input type="text" name="name" placeholder="Name" id="appointment-name" class="form-field">
             <input type="email" name="_replyto" placeholder="Email" id="appointment-email" class="form-field">
             <input type="text" name="city" placeholder="City" id="appointment-city" class="form-field">
             <input type="tel" name="phone" placeholder="Phone" id="appointment-phone" class="form-field">
             <textarea name="message" id="appointment-message" placeholder="Your note" class="form-field"></textarea>
-            <button type="submit" id="appointment-submit" class="btn-form" value="Send">Send message</button>
+            <button type="submit" id="appointment-submit" class="btn btn-form" value="Send">Send message</button>
             <p class="appointment-message"></p>
           </form>
+          <div id="loc" class="location__wrapper">
+            <h3 class="sub-title">Location</h3>
+            <ul>
+              <li>The museum is located at:</li>
+              <li>Kjelsåsveien 143, 0491 Oslo, Norway</li>
+            </ul>
+            <map name="museum-location">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.9028013622758!2d10.781189416098105!3d59.966935781886484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464171e7f06b20d1%3A0xa4dc7a6bef326423!2sKjels%C3%A5sveien%20143%2C%200491%20Oslo%2C%20Norway!5e0!3m2!1sen!2sua!4v1642270076151!5m2!1sen!2sua"
+                style="border:0;" allowfullscreen="" title="Location of Community Sience Museum"></iframe>
+            </map>
+            <ul>
+              <li>Opening hours</li>
+              <li>Monday: Closed</li>
+              <li>Tuesday: 10:00 - 16:00</li>
+              <li>Wensday: 10:00 - 16:00</li>
+              <li>Thursday: 10:00 - 16:00</li>
+              <li>Friday: 10:00 - 19:00</li>
+              <li>Saturday: 9:00 - 16:00</li>
+              <li>Saturday: 9:00 - 13:00</li>
+            </ul>
+          </div>
+          <div id="tel" class="telephone">
+            <h3 class="sub-title">Telephone</h3>
+            <ul onclick="location.href='tel:+4793928270'">
+              <li>&copy; 2022 Community Science Museum,&nbsp;</li>
+              <li>Oslo, Norway &&nbsp;</li>
+              <li>Mariusz Rozycki,&nbsp;</li>
+              <li>+47 939 28 270</li>
+            </ul>
+          </div>
         </div>
-      </div>
     </section>
   </main>
   <footer class="footer"></footer>

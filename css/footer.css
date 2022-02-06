@@ -36,17 +36,6 @@ footer .container {
   font-weight: 400;
 }
 
-.btn__sign-up {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  color: #000;
-  background-color: var(--yellow-color);
-  font-weight: 600;
-  border: 1px solid;
-  border-radius: 5px;
-}
-
 footer li {
   color: var(--white-color);
 }

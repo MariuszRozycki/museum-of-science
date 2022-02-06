@@ -6,6 +6,56 @@
   display: block;
 }
 
+.contact form,
+.contact .location__wrapper,
+.contact .telephone {
+  background-color: var(--dark-blue-color);
+  border-radius: 15px;
+  padding: 10px;
+  max-width: 700px;
+}
+
+.contact .telephone {
+  cursor: pointer;
+}
+
+.contact form,
+.contact .location__wrapper,
+.contact map {
+  margin-bottom: 20px;
+}
+
 .contact form {
+  box-shadow: 0px 0px 40px 5px #000;
   display: grid;
+  grid-template-columns: repeat(6,1fr);
+  row-gap: 10px;
+  border: none;
+  width: 100%;
+}
+
+.contact li {
+  color: var(--white-color);
+}
+
+.contact iframe {
+  border-radius: 5px;
+}
+
+.contact h3 {
+  grid-column: 1/7;
+}
+
+.contact input,
+.contact textarea {
+  grid-column: 1/7;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-form {
+  padding: 15px 10px;
+  font-size: var(--normal-font-size);
+  grid-column: 1/7;
 }
