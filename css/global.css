@@ -138,6 +138,8 @@ figure img {
   text-align: center;
   text-transform: uppercase;
   margin: 10px auto;
+  transition: .2s;
+  box-shadow: 0px 0px 40px 5px #000;
 }
 
 .welcome a,

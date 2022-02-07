@@ -4,16 +4,16 @@ console.log(mainSectionWrapper);
 for (let element of mainElements) {
   let link = `<a href="${element.onclick}" title="Community Sience Museum || ${element.category}">${element.linkText} >>></a>`;
 
-  if (document.querySelector('title').innerText === 'Community Sience Museum || Home Page' && element.category === 'home'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Explore Our Museum' && element.category === 'explore'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Exhibition Spaces' && element.category === 'exhibition'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Special Events & Exhibitions' && element.category === 'events'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Get Involved' && element.category === 'get-involved'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Visit Our Museum' && element.category === 'visit') {
+  if (document.querySelector('title').innerText === 'Community Sience Museum || Home Page' && element.category === 'Home Page'
+    || document.querySelector('title').innerText === 'Community Sience Museum || Explore Our Museum' && element.category === 'Explore Our Museum'
+    || document.querySelector('title').innerText === 'Community Sience Museum || Exhibition Spaces' && element.category === 'Exhibition Spaces'
+    || document.querySelector('title').innerText === 'Community Sience Museum || Special Events & Exhibitions' && element.category === 'Special Events & Exhibitions'
+    || document.querySelector('title').innerText === 'Community Sience Museum || Get Involved' && element.category === 'Get Involved'
+    || document.querySelector('title').innerText === 'Community Sience Museum || Visit Our Museum' && element.category === 'Visit Our Museum') {
 
     if (element.link && element.category) {
       mainSectionWrapper.innerHTML +=
-        `<div class="main-section__item" onclick="location.href='${element.onclick}'">
+        `<div class="main-section__item" onclick="location.href='${element.onclick}' title="Community Sience Museum || ${element.category}">
         <h3 class="sub-title">${element.title}</h3>
         <div id="${element.linkId}" class="main-section__item__img-wrapper">
           <img src="${element.image}" alt="${element.altText}">
@@ -23,7 +23,7 @@ for (let element of mainElements) {
     </div>`
     } if (!element.link) {
       mainSectionWrapper.innerHTML +=
-        `<div class="main-section__item" onclick="location.href='${element.onclick}'">
+        `<div class="main-section__item" onclick="location.href='${element.onclick}' title="Community Sience Museum || ${element.category}">
         <h3 class="sub-title">${element.title}</h3>
         <div class="main-section__item__img-wrapper">
           <img src="${element.image}" alt="${element.altText}">
