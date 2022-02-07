@@ -70,7 +70,7 @@ footer.innerHTML +=
     <li>Thursday: 10:00 - 16:00</li>
     <li>Friday: 10:00 - 19:00</li>
     <li>Saturday: 9:00 - 16:00</li>
-    <li>Saturday: 9:00 - 13:00</li>
+    <li>Sunday: 9:00 - 13:00</li>
   </ul>
 </div>
 <div class="copyright">
