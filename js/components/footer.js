@@ -66,7 +66,7 @@ footer.innerHTML +=
     <li>Opening hours</li>
     <li>Monday: Closed</li>
     <li>Tuesday: 10:00 - 16:00</li>
-    <li>Wensday: 10:00 - 16:00</li>
+    <li>Wednesday: 10:00 - 16:00</li>
     <li>Thursday: 10:00 - 16:00</li>
     <li>Friday: 10:00 - 19:00</li>
     <li>Saturday: 9:00 - 16:00</li>
