@@ -195,10 +195,6 @@ figure img {
   height: 220px;
 }
 
-.main-section__item__img-wrapper img {
- object-position: center;
-}
-
 /* media-queries global */
 @media (min-width: 420px) {
   .main-section .container::after,
