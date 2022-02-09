@@ -1,6 +1,5 @@
 const mainSectionWrapper = document.querySelector('.main-section__item-wrapper');
 
-console.log(mainSectionWrapper);
 for (let element of mainElements) {
   let link = `<a href="${element.onclick}" title="Community Science Museum || ${element.category}">${element.linkText} >>></a>`;
 

@@ -9,7 +9,7 @@ navMain.innerHTML +=
     <span class="bars bar-three"></span>
   </label>
   <ul class="nav-main__list">
-    <li><a href="../../index.html" title="Community Science Museum || Home Page" class="index">Home</a></li>
+    <li><a href="../../index.html" title="Community Science Museum || Home Page">Home</a></li>
     <li><a href="../../layout/explore.html" title="Community Science Museum || Explore Our Museum">Explore</a></li>
     <li><a href="../../layout/exhib-spaces.html" title="Community Science Museum || Exhibition Spaces">Exhibition Spaces</a></li>
     <li><a href="../../layout/events.html" title="Community Science Museum || Special Events & Exhibitions">Special Events & Exhibitions</a></li>
@@ -23,4 +23,34 @@ navMain.innerHTML +=
       class="invisible">useum</span></a>
 </div>`
 
-const indexLi = document.querySelector('.index');
+const hamburgerButton = document.querySelector('.hamburger-menu');
+
+const navMainList = document.querySelectorAll('.nav-main__list a');
+
+for (let element of navMainList) {
+  element.addEventListener('click', function (e) {
+    e.preventDefault();
+    location.href = element.href;
+    element.style.transform = translateX(0);
+  });
+}
+
+
+
+
+
+
+// setTimeout(function () {
+//   for (let element of navMainList) {
+
+//     element.addEventListener('click', function (e) {
+//       e.preventDefault();
+//       element.classList.add('orange');
+//       console.log(element)
+//     });
+//   }
+// }, 1000);
+
+
+
+

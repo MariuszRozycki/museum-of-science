@@ -90,6 +90,17 @@
   transition: .1s;
 }
 
+.nav-main.index li:nth-of-type(1) a, 
+.nav-main.explore li:nth-of-type(2) a, 
+.nav-main.exhibition li:nth-of-type(3) a, 
+.nav-main.special-events li:nth-of-type(4) a, 
+.nav-main.get-involved li:nth-of-type(5) a, 
+.nav-main.visit li:nth-of-type(6) a, 
+.nav-main.contact li:nth-of-type(7) a
+{
+  color: var(--orange-color);
+}
+
 .nav-main__list a:hover {
   color: var(--orange-color);
 }
