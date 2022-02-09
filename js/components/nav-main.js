@@ -23,33 +23,15 @@ navMain.innerHTML +=
       class="invisible">useum</span></a>
 </div>`
 
-const hamburgerButton = document.querySelector('.hamburger-menu');
-
-const navMainList = document.querySelectorAll('.nav-main__list a');
-
-for (let element of navMainList) {
-  element.addEventListener('click', function (e) {
-    e.preventDefault();
-    location.href = element.href;
-    element.style.transform = translateX(0);
-  });
-}
 
 
 
 
 
 
-// setTimeout(function () {
-//   for (let element of navMainList) {
 
-//     element.addEventListener('click', function (e) {
-//       e.preventDefault();
-//       element.classList.add('orange');
-//       console.log(element)
-//     });
-//   }
-// }, 1000);
+
+
 
 
 
