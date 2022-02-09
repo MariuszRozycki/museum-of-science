@@ -12,9 +12,9 @@ for (let element of mainElements) {
 
     if (element.link && element.category) {
       mainSectionWrapper.innerHTML +=
-        `<div class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Science Museum || ${element.category}">
+        `<div id="${element.linkId}" class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Science Museum || ${element.category}">
           <h3 class="sub-title">${element.title}</h3>
-          <div id="${element.linkId}" class="main-section__item__img-wrapper">
+          <div class="main-section__item__img-wrapper">
             <img src="${element.image}" alt="${element.altText}">
           </div>
           <p>${element.description}</p>
@@ -22,7 +22,7 @@ for (let element of mainElements) {
         </div>`
     } if (!element.link) {
       mainSectionWrapper.innerHTML +=
-        `<div class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Science Museum || ${element.category}">
+        `<div id="${element.linkId}" class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Science Museum || ${element.category}">
           <h3 class="sub-title">${element.title}</h3>
           <div class="main-section__item__img-wrapper">
             <img src="${element.image}" alt="${element.altText}">
