@@ -328,6 +328,10 @@
     grid-row: 2/3;
   }
 
+  .for-researchers .main-section__item a {
+    grid-column: 1/3;
+  }
+
   /* exhib__sub-web */
   .exhib__sub-web .main-section__item {
     grid-template-columns: 1fr;
