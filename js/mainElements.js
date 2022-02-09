@@ -6,7 +6,7 @@ const mainElements = [
     onclick: './../layout/explore.html',
     title: 'Explore',
     image: './../images/images_from_noroff/lab-512503_1920.jpg',
-    altText: 'Labolatory',
+    altText: 'Laboratory',
     description: `Come join us at the Community Science Museum where we’re committed to making science accessible to all.`,
     link: true,
     linkText: 'Click here'
@@ -65,22 +65,22 @@ const mainElements = [
   {
     id: 6,
     category: 'Explore Our Museum',
-    onclick: './../layout/explore__sub-web/for-teachers.html',
-    title: 'If you are teacher',
-    image: './../images/images_my/for-teachers-main/for-teachers-main.jpg',
-    altText: 'Picture of a teacher',
-    description: `Come join us at the Community Science Museum where we’re committed to making science accessible to all.`,
+    onclick: './../layout/explore__sub-web/for-kids.html',
+    title: 'If you are student',
+    image: './../images/images_my/kids-scientists/kids-scientists.jpg',
+    altText: 'Kids scientists',
+    description: `… maybe you are young student and looking for something more about science?`,
     link: true,
     linkText: 'Click to know more'
   },
   {
     id: 7,
     category: 'Explore Our Museum',
-    onclick: './../layout/explore__sub-web/for-kids.html',
-    title: 'If you are student',
-    image: './../images/images_my/kids-scientists/kids-scientists.jpg',
-    altText: 'Kids scientists',
-    description: `… maybe you are young student and looking for something more about sience?`,
+    onclick: './../layout/explore__sub-web/for-teachers.html',
+    title: 'If you are teacher',
+    image: './../images/images_my/for-teachers-main/for-teachers-main.jpg',
+    altText: 'Picture of a teacher',
+    description: `Come join us at the Community Science Museum where we’re committed to making science accessible to all.`,
     link: true,
     linkText: 'Click to know more'
   },
@@ -162,9 +162,9 @@ const mainElements = [
     id: 14,
     category: 'Special Events & Exhibitions',
     onclick: './../layout/contact.html',
-    title: 'Visiting profesor of aeronautics',
-    image: './../images/images_my/profesor-of-astronautics/profesor-of-astronautics.jpg',
-    altText: 'Picture of profesor of aeronautics',
+    title: 'Visiting professor of aeronautics',
+    image: './../images/images_my/professor-of-astronautics/professor-of-astronautics.jpg',
+    altText: 'Picture of professor of aeronautics',
     description: `It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology
     will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting
     ‘space’.`,
@@ -241,7 +241,7 @@ const mainElements = [
     category: 'Get Involved',
     onclick: './../layout/contact.html',
     title: 'Internships',
-    image: './../images/images_my/interships/chemistry-g3ea48b9ac_640.jpg',
+    image: './../images/images_my/internships/chemistry-g3ea48b9ac_640.jpg',
     altText: 'Picture of young chemistry worker',
     description: `Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of
     nature with people? Well you could be just the right person to enjoy an internship at the museum.
@@ -249,7 +249,7 @@ const mainElements = [
     sharing it with the wider community.`,
     link: true,
     linkText: 'Write to us',
-    linkId: 'interships'
+    linkId: 'internships'
   },
 
   /* visit */
@@ -277,7 +277,7 @@ const mainElements = [
     description: `The entrance is free for all.
     There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include
     a handy printed guide of the museum.
-    If you would like to organise a guided tour for your group of 6 or more people, please contact us to
+    If you would like to organize a guided tour for your group of 6 or more people, please contact us to
     arrange the tour.`,
     link: true,
     linkText: 'Write to Us',

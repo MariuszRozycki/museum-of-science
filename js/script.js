@@ -2,18 +2,18 @@ const mainSectionWrapper = document.querySelector('.main-section__item-wrapper')
 
 console.log(mainSectionWrapper);
 for (let element of mainElements) {
-  let link = `<a href="${element.onclick}" title="Community Sience Museum || ${element.category}">${element.linkText} >>></a>`;
+  let link = `<a href="${element.onclick}" title="Community Science Museum || ${element.category}">${element.linkText} >>></a>`;
 
-  if (document.querySelector('title').innerText === 'Community Sience Museum || Home Page' && element.category === 'Home Page'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Explore Our Museum' && element.category === 'Explore Our Museum'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Exhibition Spaces' && element.category === 'Exhibition Spaces'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Special Events & Exhibitions' && element.category === 'Special Events & Exhibitions'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Get Involved' && element.category === 'Get Involved'
-    || document.querySelector('title').innerText === 'Community Sience Museum || Visit Our Museum' && element.category === 'Visit Our Museum') {
+  if (document.querySelector('title').innerText === 'Community Science Museum || Home Page' && element.category === 'Home Page'
+    || document.querySelector('title').innerText === 'Community Science Museum || Explore Our Museum' && element.category === 'Explore Our Museum'
+    || document.querySelector('title').innerText === 'Community Science Museum || Exhibition Spaces' && element.category === 'Exhibition Spaces'
+    || document.querySelector('title').innerText === 'Community Science Museum || Special Events & Exhibitions' && element.category === 'Special Events & Exhibitions'
+    || document.querySelector('title').innerText === 'Community Science Museum || Get Involved' && element.category === 'Get Involved'
+    || document.querySelector('title').innerText === 'Community Science Museum || Visit Our Museum' && element.category === 'Visit Our Museum') {
 
     if (element.link && element.category) {
       mainSectionWrapper.innerHTML +=
-        `<div class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Sience Museum || ${element.category}">
+        `<div class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Science Museum || ${element.category}">
           <h3 class="sub-title">${element.title}</h3>
           <div id="${element.linkId}" class="main-section__item__img-wrapper">
             <img src="${element.image}" alt="${element.altText}">
@@ -23,7 +23,7 @@ for (let element of mainElements) {
         </div>`
     } if (!element.link) {
       mainSectionWrapper.innerHTML +=
-        `<div class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Sience Museum || ${element.category}">
+        `<div class="main-section__item" onclick="location.href='${element.onclick}'" title="Community Science Museum || ${element.category}">
           <h3 class="sub-title">${element.title}</h3>
           <div class="main-section__item__img-wrapper">
             <img src="${element.image}" alt="${element.altText}">
@@ -36,11 +36,11 @@ for (let element of mainElements) {
 
 /* form */
 /* https://formspree.io/f/mdobeygr */
-if (document.querySelector('title').innerText === 'Community Sience Museum || Contact') {
+if (document.querySelector('title').innerText === 'Community Science Museum || Contact') {
   const createAppointment = (appointment) => {
     const appointmentMessage = document.querySelector('.appointment-message');
 
-    fetch('https://formspree.io/f/aaaaaa', {
+    fetch('https://formspree.io/f/mdobeygr', {
       headers: {
         'Content-Type': 'application/json',
       },
@@ -56,9 +56,9 @@ if (document.querySelector('title').innerText === 'Community Sience Museum || Co
       });
   }
 
-  const appointemntForm = document.getElementById('appointment-form');
+  const appointmentForm = document.getElementById('appointment-form');
 
-  appointemntForm.addEventListener('submit', function (event) {
+  appointmentForm.addEventListener('submit', function (event) {
     event.preventDefault();
     const appointmentPhone = document.getElementById('appointment-phone');
     const appointmentMessage = document.querySelector('.appointment-message');

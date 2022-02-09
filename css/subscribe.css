@@ -6,3 +6,9 @@
 .subscribe.main-section .container::before {
     display: none;
   }
+
+  /* subscribe */
+  .subscribe .main-section__item-wrapper {
+    display: block;
+  }
+  
