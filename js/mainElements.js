@@ -89,7 +89,7 @@ const mainElements = [
     category: 'Explore Our Museum',
     onclick: './../layout/explore__sub-web/for-researchers.html',
     title: 'If you are researcher',
-    image: './../images/images_my/kids-scientists/kids-scientists.jpg',
+    image: './../images/images_my/for-researchers/for-researchers.jpg',
     altText: 'Picture of researchers',
     description: `Are you looking to get involved with our team of researchers and academics?`,
     link: true,
