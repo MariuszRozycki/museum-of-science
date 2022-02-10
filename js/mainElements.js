@@ -258,7 +258,7 @@ const mainElements = [
     category: 'Visit Our Museum',
     onclick: '../layout/map.html',
     title: 'Location',
-    image: './../images/images_my/visit.png',
+    image: './../images/images_my/visit.jpg',
     altText: 'Picture location.',
     description: `The museum is located at:
     Kjelsåsveien 143, 0491 Oslo,
