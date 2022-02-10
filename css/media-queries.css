@@ -504,6 +504,7 @@
   /* events */
   .events .graphic {
     margin-top: 0;
+    grid-row: 1/3;
   }
 
   /* get involved */
