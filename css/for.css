@@ -38,4 +38,7 @@
   display: none;
 }
 
+.for .main-section__item[title="Community Science Museum || Contact"] {
+  cursor: pointer;
+}
 

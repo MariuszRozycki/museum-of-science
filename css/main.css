@@ -3,9 +3,6 @@
   background-color: #334B84;
 }
 
-.main-section__item {
-  cursor: pointer;
-}
 
 .main-section__item img { 
   border-radius: 5px;

@@ -30,6 +30,13 @@ for (let element of mainElements) {
           <p>${element.description}</p>
         </div>`
     }
+
+    if (element.onclick) {
+      let mainSectionItem = document.querySelectorAll('.main-section__item');
+      for (let item of mainSectionItem) {
+        item.style.cursor = 'pointer';
+      }
+    }
   }
 }
 
