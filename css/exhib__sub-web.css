@@ -10,11 +10,11 @@
   grid-column: 1/5;
   background-color: var(--dark-blue-color);
   padding: 5px 10px;
-  border-radius: 15px;
+  border-radius: var(--middle-radius);
 }
 
 .exhib__sub-web iframe {
-  border-radius: 15px;
+  border-radius: var(--middle-radius);
   border: none;
 }
 

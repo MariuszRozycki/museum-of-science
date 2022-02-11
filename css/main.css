@@ -5,7 +5,7 @@
 
 
 .main-section__item img { 
-  border-radius: 5px;
+  border-radius: var(--small-radius);
 }
 
 
@@ -23,5 +23,5 @@
 .main-section__item-wrapper h3,
 .main-section__item-wrapper a {
   color: var(--yellow-color);
-  text-shadow: 2px 2px 5px #000;
+  text-shadow: var(--text-shadow);
 }

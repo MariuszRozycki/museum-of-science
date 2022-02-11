@@ -76,7 +76,7 @@
   width: 80%;
   max-width: 400px;
   padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: var(--big-radius);
   transition: .2s;
 }
 
@@ -150,7 +150,7 @@
 .main-header span:nth-of-type(3), 
 .main-header span:nth-of-type(4) {
   margin: 0;
-  text-shadow: 2px 2px 5px #000;
+  text-shadow: var(--text-shadow);
 }
 
 .main-header__prefix {
@@ -159,7 +159,7 @@
   font-style: italic;
   margin-bottom: 20px;
   color: var(--white-color);
-  text-shadow: 4px ​5px 4px #000;
+  text-shadow: var(--prefix-text-shadow);
   font-weight: 700;
 }
 

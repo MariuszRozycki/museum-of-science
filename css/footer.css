@@ -22,7 +22,7 @@ footer .container {
   padding: 0 10px;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: var(--small-radius);
 }
 
 .invisible__to-newsletter {
