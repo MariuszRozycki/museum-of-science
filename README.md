@@ -1,7 +1,7 @@
 # Museum of Science
 ## [Live site: Museum of Science](https://wizardly-hugle-cb8551.netlify.app/)
 ![museum_wide-screen](https://user-images.githubusercontent.com/55709542/224541806-bc8a9e3a-8ff3-40df-afcc-207f25325037.jpg) <br>
-I made a website Museum of science as a study semester project. Site was designed by me and appeals to target audience.
+I made a website Museum of Science as a study semester project. Site was designed by me and appeals to target audience.
 
 ## Description
 This is as a first semester project. Project includes design principles, project management, communication technology, and developing with HTML/CSS. 
