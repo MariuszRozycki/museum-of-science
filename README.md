@@ -4,16 +4,9 @@
 I made a website Museum of Science as a study semester project. Site was designed by me and appeals to target audience.
 
 ## Description
-This is as a first semester project. Project includes design principles, project management, communication technology, and developing with HTML/CSS. 
-The target audience is carefully considered. A prototype of the website is made using Adobe XD. [link to prototypes](https://xd.adobe.com/view/233a9331-2653-4c76-80d0-bb6d72fadf3d-7669). <br> 
-To create this website I used HTML, CSS and pure Java Script.
-Compositional principles, typography and color schemes are considered.
-HTML is semantic and neatly indented. 
-Site uses external CSS style sheets which follow the DRY principle.
-Site downloads quite quickly. Images are not over 200kb.
-The site takes WCAG principles into consideration, especially regarding hierarchy, navigation and color usage.
-Site is responsive, attractive and easy to use on variety of devices.
-Site shows consideration for content strategy and SEO (meta tags and alt text).
+This is as a first semester project. Project includes design principles, project management, communication technology, and developing with HTML/CSS and basic Java Script. 
+A prototype of the website is made using Adobe XD [link to prototypes](https://xd.adobe.com/view/233a9331-2653-4c76-80d0-bb6d72fadf3d-7669). <br>
+However it was one among of my first study projects, my goal was to design webside that I will use it in future as a template. 
 
 ### Requirements of project:
 - the site has been design that appeals to the target audience
