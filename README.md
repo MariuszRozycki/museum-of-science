@@ -44,7 +44,7 @@ git clone https://github.com/MariuszRozycki/museum-of-science.git
 [Museum of Science Live Site](https://wizardly-hugle-cb8551.netlify.app/)
 
 
-### Contact
+## Contact
 Mariusz Rozycki: <br>
 Portfolio: https://mariuszrozycki.info/portfolio <br>
 Portfolio-contact: https://mariuszrozycki.info/portfolio/layout/contact.html <br>
